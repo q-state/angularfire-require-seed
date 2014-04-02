@@ -1,4 +1,4 @@
-(function() {
+define(['angular'], function(angular) {
    'use strict';
 
    /* Services */
@@ -8,5 +8,5 @@
       // put your services here!
       // .service('serviceName', ['dependency', function(dependency) {}]);
 
-})();
+});
 

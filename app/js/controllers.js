@@ -1,3 +1,5 @@
+define(['angular'], function(angular) {
+
 'use strict';
 
 /* Controllers */
@@ -157,3 +159,5 @@ angular.module('myApp.controllers', [])
       }
 
    }]);
+
+});

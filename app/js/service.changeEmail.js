@@ -1,4 +1,6 @@
-angular.module('myApp.service.changeEmail', ['myApp.service.login', 'myApp.service.firebase'])
+define(['angular'], function(angular) {
+
+return angular.module('myApp.service.changeEmail', ['myApp.service.login', 'myApp.service.firebase'])
    .factory('changeEmailService', ['$rootScope', 'firebaseRef', '$timeout', '$q', 'loginService',
       function($rootScope, firebaseRef, $timeout, $q, loginService) {
          var auth = $rootScope.auth;
@@ -103,3 +105,5 @@ angular.module('myApp.service.changeEmail', ['myApp.service.login', 'myApp.servi
                .catch( errorFn );
       };
    }]);
+
+});

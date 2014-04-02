@@ -1,5 +1,6 @@
+define(['angular'], function(angular) {
 
-angular.module('myApp.service.firebase', ['firebase'])
+  angular.module('myApp.service.firebase', ['firebase'])
 
 // a simple utility to create references to Firebase paths
    .factory('firebaseRef', ['Firebase', 'FBURL', function(Firebase, FBURL) {
@@ -38,3 +39,5 @@ function pathRef(args) {
    }
    return args.join('/');
 }
+
+});

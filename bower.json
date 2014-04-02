@@ -1,0 +1,30 @@
+{
+  "name": "angularFire-seed",
+  "version": "0.0.0",
+  "homepage": "https://github.com/q-state/angularFire-seed",
+  "authors": [
+    "Adam Barker <git@q-state.co.uk>"
+  ],
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.11"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "angular": "~1.2.15",
+    "angular-route": "~1.2.15",
+    "angular-mocks": "~1.2.15",
+    "requirejs-text": "~2.0.10"
+  }
+}

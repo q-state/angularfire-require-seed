@@ -1,3 +1,5 @@
+define(['angular'], function(angular) {
+
 
 angular.module('myApp.service.login', ['firebase', 'myApp.service.firebase'])
 
@@ -83,3 +85,5 @@ angular.module('myApp.service.login', ['firebase', 'myApp.service.firebase'])
          }
       }
    }]);
+
+});
