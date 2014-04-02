@@ -1,4 +1,4 @@
-define(['angular'], function(angular) {
+define(['angular', 'service.login'], function(angular) {
 
 'use strict';
 
@@ -17,7 +17,7 @@ define(['angular'], function(angular) {
  *
  * See usage examples here: https://gist.github.com/katowulf/7328023
  */
-angular.module('simpleLoginTools', [])
+return angular.module('simpleLoginTools', [])
 
 /**
  * A service that returns a promise object, which is resolved once $firebaseSimpleLogin

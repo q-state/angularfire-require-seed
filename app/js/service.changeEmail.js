@@ -1,4 +1,8 @@
-define(['angular'], function(angular) {
+define([
+   'angular',
+   'service.login',
+   'service.firebase'
+   ], function(angular) {
 
 return angular.module('myApp.service.changeEmail', ['myApp.service.login', 'myApp.service.firebase'])
    .factory('changeEmailService', ['$rootScope', 'firebaseRef', '$timeout', '$q', 'loginService',

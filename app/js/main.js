@@ -3,6 +3,9 @@ require.config({
 		angular: '../../bower_components/angular/angular',
 		angularRoute: '../../bower_components/angular-route/angular-route',
 		angularMocks: '../../bower_components/angular-mocks/angular-mocks',
+		firebase: '../../bower_components/firebase/firebase',
+		firebaseSimpleLogin: '../../bower_components/firebase-simple-login/firebase-simple-login',
+		angularFire: '../../bower_components/angularfire/angularfire',
 		text: '../../bower_components/requirejs-text/text'
 	},
 	shim: {
@@ -11,7 +14,11 @@ require.config({
 		'angularMocks': {
 			deps:['angular'],
 			'exports':'angular.mock'
+		},
+		'angularFire' : {
+			deps: ['firebase']
 		}
+
 	},
 	priority: [
 		"angular"

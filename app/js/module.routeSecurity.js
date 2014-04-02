@@ -1,4 +1,4 @@
-(function(angular) {
+define(['angular'], function(angular) {
    angular.module('routeSecurity', [])
       .run(['$injector', '$location', '$rootScope', 'loginRedirectPath', function($injector, $location, $rootScope, loginRedirectPath) {
          if( $injector.has('$route') ) {
@@ -84,4 +84,4 @@
          }
       }
    };
-})(angular);
+});

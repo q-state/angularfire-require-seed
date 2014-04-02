@@ -1,4 +1,4 @@
-define(['angular'], function(angular) {
+define(['angular', 'firebase'], function(angular) {
 
   angular.module('myApp.service.firebase', ['firebase'])
 
