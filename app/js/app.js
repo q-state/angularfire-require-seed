@@ -1,6 +1,5 @@
 define([
    'angular',
-   'firebase',
    'config',
    'filters',
    'services',
@@ -13,7 +12,7 @@ define([
    'module.routeSecurity',
    'module.simpleLoginTools'
 
-   ], function(angular, firebase, config, filters, services, directives, controllers) {
+   ], function(angular, config, filters, services, directives, controllers) {
       'use strict';
 
       // Declare app level module which depends on filters, and services

@@ -1,8 +1,6 @@
 define([
    'angular', 
-   'firebase', 
-   'firebaseSimpleLogin', 
-   'service.firebase'
+   'firebaseSimpleLogin'
    ], function(angular) {
 
    return angular.module('myApp.service.login', ['firebase', 'myApp.service.firebase'])

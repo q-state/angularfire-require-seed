@@ -31,8 +31,8 @@ window.name = "NG_DEFER_BOOTSTRAP!";
 require( [
 	'angular',
 	'app',
-	'routes'
-], function(angular, app, routes) {
+    'routes'
+    ], function(angular, app) {
 	'use strict';
 	var $html = angular.element(document.getElementsByTagName('html')[0]);
 

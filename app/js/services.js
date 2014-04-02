@@ -1,4 +1,4 @@
-define(['angular', 'firebase', 'angularFire', 'service.firebase', 'service.login', 'service.changeEmail'], function(angular) {
+define(['angular', 'angularFire'], function(angular) {
    'use strict';
 
    /* Services */

@@ -1,3 +1,4 @@
+# Updated to include support for require
 
 # angularFire-seed — the seed for AngularFire apps
 
